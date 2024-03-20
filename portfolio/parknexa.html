@@ -38,7 +38,7 @@
 <i class="fa-solid fa-chevron-up" oneclick="scrollToTop()"></i>
 </div>
 
-// JavaScript for Smooth Scroll to Top
+
 <script>
 function scrollToTop() {
     window.scrollTo({
@@ -47,6 +47,17 @@ function scrollToTop() {
     });
 }
 </script>
+<!-- Floating Action Button -->
+<div class="fab2" id="scrollTopBtn" onclick="goBack()">
+    <i class="fa-solid fa-chevron-left" oneclick="goBack()"></i>
+    </div>
+    
+    
+    <script>
+        function goBack() {
+            window.history.back(-1);
+            };
+        </script>
 
 
 

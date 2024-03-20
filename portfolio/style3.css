@@ -98,7 +98,7 @@ nav ul li a{
       
       .auto-type2 span {
         display: block;
-        animation: typing 12s steps(80, end);
+        animation: typing 10s steps(80, end);
         overflow: hidden;
         white-space: nowrap;
       }
