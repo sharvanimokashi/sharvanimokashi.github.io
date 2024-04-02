@@ -1,0 +1,123 @@
+            <div class="header-text">
+                <h1>Work</h1>
+            </div>
+        </div>
+    </div>
+    <div class="box-container">
+        <div class="row">
+            <div class="column-1">
+        <div class="box">
+            <img src="Image 1.png">
+            <p>Staging | Experiential Installation | Generative Art | Projection Mapping<br>2023</p>
+            <a href="#" class="tile"></a>
+        </div>
+        <div class="box">
+            <img src="image 4.png">
+            <p>Design Process | Design Methodologies | Problem Solving<br>2022</p>
+            <a href="#" class="tile"></a>
+        </div>
+        <div class="box">
+            <img src="Image 7.png">
+            <p>Graduation Project | UI/UX Design | UX Research | System Administration<br>2021</p>
+            <a href="#" class="tile"></a>
+        </div>
+            </div>
+            <div class="column-2">
+        <div class="box">
+            <img src="Image 2.png">
+            <p>Problem Solving | Product Design | Bio Design | Individual<br>2023</p>
+            <a href="#" class="tile"></a>
+        </div>
+        <div class="box">
+            <img src="image 5.png">
+            <p>Designathon | UX design | Problem Solving | UX Research<br>2023</p>
+            <a href="#" class="tile"></a>
+        </div>
+            </div>
+            <div class="column-3">
+        <div class="box">
+            <img src="image 3.png">
+            <p>Design Research | Methodologies | Research Tools | Documentation<br>2023</p>
+            <a href="#" class="tile"></a>
+        </div>
+        <div class="box">
+            <img src="Image 6.png">
+            <p>Graduation Project | UI/UX Design | UX Research | Education</p>
+            <a href="#" class="tile"></a>
+        </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    .header-text{
+        margin-top: 36px;
+        text-align: center;
+    }
+    .header-text h1{
+        font-size: 52px;
+        align-items: center;
+        text-align: center;
+    }
+    .box-container{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 48px;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       }
+    .column-1{
+        flex-basis: 30%;
+    }
+    .column-1 img{
+        width: 100%;
+        border-radius: 12px;
+        filter: grayscale(1);
+        transition: filter .5s, transform .5s;
+    }
+    .column-1 img:hover{
+        transform: scale(1.1);
+        filter: none;
+    }
+    .column-2{
+        flex-basis: 30%;
+    }
+    .column-2 img{
+        width: 100%;
+        border-radius: 12px;
+        filter: grayscale(1);
+        transition: filter .5s, transform .5s;
+    }
+    .column-2 img:hover{
+        transform: scale(1.1);
+        filter: none;
+    }
+    .column-3{
+        flex-basis: 30%;
+    }
+    .column-3 img{
+        width: 100%;
+        border-radius: 12px;
+        filter: grayscale(1);
+        transition: filter .5s, transform .5s;
+    }
+    .column-3 img:hover{
+        transform: scale(1.1);
+        filter: none;
+    }
+    .box{
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .box text{
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 28px;
+        margin-top: 48px;
+    }

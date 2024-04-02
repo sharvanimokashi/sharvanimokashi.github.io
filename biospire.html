@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF -8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Sharvani Mokashi</title>
+    <link rel="stylesheet" href="biospire.css">
+    <script src="https://kit.fontawesome.com/233a614baf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="impressions.html">Impressions</a></li>
+                    <li><a href="index3.html#connect">Connect</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+<div class="video_container">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NVF0kJffPpY?si=YB0rbl999znpYxTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class="biospire">
+    <img src="Biospire/Biospire wide.png">
+</div>
+<div class="copyright">
+    <p>Copyright © 2024 Sharvani Mokashi </p>
+</div>
+
+<!-- Floating Action Button -->
+<div class="fab" id="scrollTopBtn" onclick="scrollToTop()">
+<i class="fa-solid fa-chevron-up" oneclick="scrollToTop()"></i>
+</div>
+
+<script>
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+</script>
+<!-- Floating Action Button -->
+<div class="fab2" id="scrollTopBtn" onclick="goBack()">
+    <i class="fa-solid fa-chevron-left" oneclick="goBack()"></i>
+    </div>
+    
+    
+    <script>
+        function goBack() {
+            window.history.back(-1);
+            };
+        </script>
+
+
+
+</body>
+</html>
+
